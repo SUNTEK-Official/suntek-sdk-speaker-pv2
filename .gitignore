@@ -1,0 +1,50 @@
+# C++ / Qt / CMake build artifacts
+build/
+*/build/
+cmake-build-*/
+Desktop_Qt_*/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.exe
+*.msi
+*.dll
+*.zip
+*.rar
+*.7z
+*.user
+
+# Python build & virtual environment artifacts
+dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.spec.bak
+
+# Signing keys & credentials
+*.pk8
+*.pem
+*.pfx
+*.p12
+
+# IDE, OS & AI tool artifacts
+.idea/
+.vscode/
+.vs/
+.claude/
+.workbuddy/
+.cursor/
+__MACOSX/
+.DS_Store
+Thumbs.db
+._*
+~$*
+*.log
+*.bak
+backup/
+
+# Preserve required firmware build helper DLLs
+!sample-firmware/make/make_cmd/*.dll

@@ -1,0 +1,10 @@
+Build/MainApp/debug/lib/MainApp_obj/*
+Build/MainApp/debug/out/*
+Build/MainApp/debug/lib/*
+Build/MainApp/release/lib/MainApp_obj/*
+Build/MainApp/release/out/*
+Build/MainApp/release/lib/*
+MainApp_debug_build.log
+MainApp_release_build.log
+/*.code-workspace
+/.vscode
